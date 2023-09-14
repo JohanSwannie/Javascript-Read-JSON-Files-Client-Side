@@ -1,0 +1,50 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: lightblue;
+   font-family: "Trirong", serif;
+ }
+
+ .container1 {
+   width: 90%;
+   border: 4px solid #FFF;
+   margin: 1rem auto;
+   padding: 2%;
+   background: darkgreen;
+   text-align: center;
+ }
+
+ .container1 div {
+   width: 80%;
+   color: #FFF;
+   margin: 0 auto;
+ }
+
+ .subcontainer {
+   text-align: center;
+ }
+
+ #imagine {
+   align-content: center;
+   width: 250px;
+   height: 250px;
+ }
+
+ .container2 {
+   width: 90%;
+   border: 4px solid #FFF;
+   margin: 1rem auto;
+   padding: 2%;
+   background: darkblue;
+   text-align: center;
+ }
+
+ .container2>div {
+   width: 75%;
+   color: #FFF;
+   margin: 0 auto;
+ }
